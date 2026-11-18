@@ -7,6 +7,16 @@
     <language>en</language>
     <!-- New releases are inserted directly below this line. -->
     <item>
+      <title>Brisk 0.6.1</title>
+      <pubDate>Wed, 18 Nov 2026 15:18:23 GMT</pubDate>
+      <sparkle:version>29</sparkle:version>
+      <sparkle:shortVersionString>0.6.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <description><![CDATA[<p>Requires a Mac with Apple silicon (M1 or later) and macOS 14 or later.</p><ul><li>Language setting: Brisk is now available in Korean and English. Korean remains the default. To change the language, open Settings &gt; General &gt; Language; Brisk restarts to apply it.</li><li>Widgets show their content in the selected language.</li><li>The disk image now includes English installation instructions.</li></ul>]]></description>
+      <enclosure url="https://github.com/linus-ground/brisk/releases/download/v0.6.1/Brisk-0.6.1.dmg" length="2308476" type="application/octet-stream" sparkle:edSignature="8YK9f/SG/XU8tNWd8h2zKg0bVzIDQiusBs7UQk7fEoO23MHmdcAb3VnzbAD9yZg4fKt0fdTSIcxGa4kUXuQLCA=="/>
+    </item>
+    <item>
       <title>Brisk 0.6.0</title>
       <pubDate>Wed, 18 Nov 2026 15:02:46 GMT</pubDate>
       <sparkle:version>28</sparkle:version>
