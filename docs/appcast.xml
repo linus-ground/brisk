@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Brisk 업데이트 목록 (Sparkle). Distribution/release.sh가 고침 — 직접 고치지 말 것 -->
+<rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
+  <channel>
+    <title>Brisk</title>
+    <link>https://linus-ground.github.io/brisk/appcast.xml</link>
+    <language>ko</language>
+    <!-- 새 버전은 이 줄 바로 아래(맨 위)에 추가됨 -->
+  </channel>
+</rss>
