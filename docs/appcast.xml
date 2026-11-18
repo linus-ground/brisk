@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!-- Brisk 업데이트 목록 (Sparkle). Distribution/release.sh가 고침 — 직접 고치지 말 것 -->
+<!-- Brisk update feed (Sparkle). Maintained by Distribution/release.sh; do not edit by hand. -->
 <rss version="2.0" xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle">
   <channel>
     <title>Brisk</title>
     <link>https://linus-ground.github.io/brisk/appcast.xml</link>
-    <language>ko</language>
-    <!-- 새 버전은 이 줄 바로 아래(맨 위)에 추가됨 -->
+    <language>en</language>
+    <!-- New releases are inserted directly below this line. -->
     <item>
       <title>Brisk 0.6.0</title>
       <pubDate>Wed, 18 Nov 2026 15:02:46 GMT</pubDate>
@@ -13,7 +13,7 @@
       <sparkle:shortVersionString>0.6.0</sparkle:shortVersionString>
       <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
       <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-      <description><![CDATA[<p>Apple Silicon(M1 이후) Mac, macOS 14 이상.</p><ul><li>앱 안에서 업데이트: 하루 한 번 새 버전을 확인하고, 누르면 알아서 설치·재실행 (메뉴의 &#x27;업데이트 확인…&#x27;)</li><li>←/→로 사이드바·글 목록·본문 사이 포커스 이동, 본문에서 ↑↓는 스크롤</li><li>목록 안 찾기(⌘F), 구독별 알림 토글, 목록 동작 버튼 상시 표시</li><li>사이드바 폴더·구독을 끌어서 순서 바꾸기·옮기기</li><li>전체 본문 가져오기 개선, 새로고침·메모리 성능 개선</li></ul><p>0.5.x를 쓰고 있다면 이번 한 번만 DMG를 받아 덮어써 주세요. 다음부터는 앱이 알아서 업데이트해요.</p>]]></description>
+      <description><![CDATA[<p>Requires a Mac with Apple silicon (M1 or later) and macOS 14 or later.</p><ul><li>In-app updates: Brisk checks for new versions once a day and installs them on request (Check for Updates in the menu)</li><li>Keyboard focus moves between the sidebar, article list, and article view with the Left and Right arrow keys; Up and Down scroll the article view</li><li>Search within the current list (Command-F), per-feed notification toggle, and list actions that are always visible</li><li>Folders and subscriptions can be reordered and moved by dragging in the sidebar</li><li>Improved full-text retrieval, plus refresh and memory performance improvements</li></ul><p>Earlier versions do not include the updater. Install this version manually once; later versions will be delivered automatically.</p>]]></description>
       <enclosure url="https://github.com/linus-ground/brisk/releases/download/v0.6.0/Brisk-0.6.0.dmg" length="2297299" type="application/octet-stream" sparkle:edSignature="TFDjn+MwK05qxYpr4/NLtvpfAuGdfpEWPVEOL0f0GmEjSiflGlpvFm4424Tzk5KfE/J9AHy5/KPQ8rmIWpeMAg=="/>
     </item>
   </channel>
