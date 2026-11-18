@@ -1,6 +1,6 @@
-# 제3자 소프트웨어 고지 (Third-party notices)
+# Third-Party Notices
 
-Brisk에는 아래 오픈소스 소프트웨어가 들어 있으며, 각 라이선스를 따릅니다.
+Brisk includes the following open-source software, each distributed under its own license.
 
 ## GRDB.swift
 
@@ -159,4 +159,6 @@ POSSIBILITY OF SUCH DAMAGE.
 
 ## Readability.js (Mozilla)
 
-https://github.com/mozilla/readability — Apache License 2.0
+https://github.com/mozilla/readability
+
+Licensed under the Apache License, Version 2.0.
