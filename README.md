@@ -40,8 +40,8 @@ To add a widget:
 
 To configure a widget, right-click it and choose **Edit Widget**:
 
-- **Scope**: all feeds, Unread, Starred, or a specific folder or feed
-- **Unread Only**: show only unread articles (on by default)
+- **Scope**: All, Starred, or a specific folder or feed
+- **Unread Only**: list only unread articles in Recent Articles (on by default)
 
 Text inside the widget follows the language selected in Brisk. The widget names and descriptions in the widget gallery follow the macOS system language.
 
