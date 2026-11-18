@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Brisk — Mac용 RSS 리더</title>
+<meta name="description" content="Brisk는 가볍고 빠른 macOS용 RSS 리더예요.">
+<style>
+  :root { --bg:#fbfbfa; --fg:#1d1d1f; --muted:#6e6e73; --line:#e5e5e7; --accent:#0a66d8; --accent-fg:#fff; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg:#161617; --fg:#f5f5f7; --muted:#a1a1a6; --line:#2c2c2e; --accent:#3d8bfd; --accent-fg:#fff; }
+  }
+  * { box-sizing: border-box; }
+  body { margin:0; background:var(--bg); color:var(--fg);
+         font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", sans-serif; }
+  main { max-width: 640px; margin: 0 auto; padding: 72px 20px 56px; }
+  img.icon { width: 96px; height: 96px; }
+  h1 { font-size: 34px; margin: 12px 0 4px; letter-spacing: -0.02em; }
+  .lead { color: var(--muted); margin: 0 0 28px; }
+  .btn { display:inline-block; background:var(--accent); color:var(--accent-fg); text-decoration:none;
+         padding: 11px 22px; border-radius: 10px; font-weight: 600; }
+  .req { color: var(--muted); font-size: 14px; margin-top: 12px; }
+  h2 { font-size: 18px; margin: 44px 0 8px; padding-top: 20px; border-top: 1px solid var(--line); }
+  ol, ul { padding-left: 20px; margin: 0; }
+  li { margin: 4px 0; }
+  a { color: var(--accent); }
+  footer { color: var(--muted); font-size: 13px; margin-top: 48px; }
+</style>
+</head>
+<body>
+<main>
+  <img class="icon" src="icon.png" alt="">
+  <h1>Brisk</h1>
+  <p class="lead">가볍고 빠른 Mac용 RSS 리더. 서버나 계정 없이 이 Mac에서만 동작해요.</p>
+
+  <a class="btn" href="https://github.com/linus-ground/brisk/releases/latest">최신 버전 내려받기</a>
+  <p class="req">Apple Silicon(M1 이후) Mac · macOS 14 Sonoma 이상</p>
+
+  <h2>설치</h2>
+  <ol>
+    <li>릴리스 페이지에서 <code>Brisk-x.y.z.dmg</code>를 받아 열어요.</li>
+    <li>Brisk를 ‘응용 프로그램’ 폴더로 끌어다 놓아요.</li>
+    <li>응용 프로그램 폴더에서 Brisk를 실행해요.</li>
+  </ol>
+
+  <h2>업데이트</h2>
+  <p>0.6.0부터는 앱이 하루 한 번 새 버전을 확인하고 알려 줘요. ‘업데이트 설치’를 누르면 알아서 바꾸고 다시 실행해요.
+     메뉴 막대 아이콘이나 Brisk 메뉴의 ‘업데이트 확인…’으로 바로 확인할 수도 있어요.</p>
+  <p>0.5.x를 쓰고 있다면 이번 한 번만 위에서 DMG를 받아 덮어써 주세요.
+     구독 목록, 읽은 글, 설정은 그대로 남아요.</p>
+
+  <h2>주요 기능</h2>
+  <ul>
+    <li>폴더·구독 정리 (끌어서 옮기기), 안 읽은 글·별표 목록</li>
+    <li>전체 본문 가져오기, 기기 안에서 하는 한국어 번역</li>
+    <li>목록 안 찾기, 한 글자 단축키(J/K/M/S/V), 새 글 알림, 위젯</li>
+  </ul>
+
+  <h2>라이선스</h2>
+  <p><a href="https://github.com/linus-ground/brisk/blob/main/LICENSE.md">PolyForm Noncommercial 1.0.0</a>.
+     개인·비영리 목적으로는 자유롭게 쓰고 나눌 수 있지만, 상업적 목적으로는 쓸 수 없어요.</p>
+
+  <footer>업데이트 정보: <a href="appcast.xml">appcast.xml</a> · <a href="https://github.com/linus-ground/brisk/releases">모든 릴리스</a></footer>
+</main>
+</body>
+</html>
