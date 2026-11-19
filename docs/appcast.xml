@@ -7,6 +7,16 @@
     <language>en</language>
     <!-- New releases are inserted directly below this line. -->
     <item>
+      <title>Brisk 0.6.3</title>
+      <pubDate>Thu, 19 Nov 2026 12:01:44 GMT</pubDate>
+      <sparkle:version>31</sparkle:version>
+      <sparkle:shortVersionString>0.6.3</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <description><![CDATA[<p>Requires a Mac with Apple silicon (M1 or later) and macOS 14 or later.</p><ul><li>Brisk no longer becomes unresponsive with large numbers of articles. The article list now loads 300 articles at a time and loads more as you scroll, so marking articles as read, searching, and switching lists stay responsive.</li><li>Mark All as Read, deleting subscriptions or folders, resetting articles, and importing OPML now run in the background. If an operation takes longer than a moment, a progress indicator appears at the bottom of the article list.</li><li>While searching, Mark All as Read now applies to every matching article, not only the ones loaded in the list.</li><li>The article count next to the list title always shows the total number of articles.</li></ul>]]></description>
+      <enclosure url="https://github.com/linus-ground/brisk/releases/download/v0.6.3/Brisk-0.6.3.dmg" length="2310800" type="application/octet-stream" sparkle:edSignature="A7PFQ5ofI6Y/+/2HyFudKb8aRKwCJp3Be/n9tiklVkWVbO8W93jsxplxQ6ceTLUKMsAQ6+vcT6an8dkBwZ9GCA=="/>
+    </item>
+    <item>
       <title>Brisk 0.6.2</title>
       <pubDate>Thu, 19 Nov 2026 11:28:47 GMT</pubDate>
       <sparkle:version>30</sparkle:version>
