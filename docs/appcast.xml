@@ -7,6 +7,16 @@
     <language>en</language>
     <!-- New releases are inserted directly below this line. -->
     <item>
+      <title>Brisk 0.6.4</title>
+      <pubDate>Thu, 19 Nov 2026 14:16:52 GMT</pubDate>
+      <sparkle:version>32</sparkle:version>
+      <sparkle:shortVersionString>0.6.4</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <description><![CDATA[<p>Requires a Mac with Apple silicon (M1 or later) and macOS 14 or later.</p><ul><li>Subscriptions now show their site icons in the sidebar and next to the feed name in the article list. Subscriptions with notifications turned on show a small bell next to their name.</li><li>Search is faster and more accurate. It no longer matches text hidden inside HTML markup, such as link addresses or style names, and it still finds parts of words.</li><li>After updating, articles you already have are added to the search index in the background. Until that finishes, some older articles may not appear in search results.</li></ul>]]></description>
+      <enclosure url="https://github.com/linus-ground/brisk/releases/download/v0.6.4/Brisk-0.6.4.dmg" length="2352904" type="application/octet-stream" sparkle:edSignature="sk05nuYcAOYbGyXJu2xzdroMu5Y48kQgSmgWdMPW1Es2ujLF7RdQ3/NL1HnAaTtMYho9DBrG9/+gAYZANqx3Aw=="/>
+    </item>
+    <item>
       <title>Brisk 0.6.3</title>
       <pubDate>Thu, 19 Nov 2026 12:01:44 GMT</pubDate>
       <sparkle:version>31</sparkle:version>
