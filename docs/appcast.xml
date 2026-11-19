@@ -7,6 +7,16 @@
     <language>en</language>
     <!-- New releases are inserted directly below this line. -->
     <item>
+      <title>Brisk 0.7.1</title>
+      <pubDate>Thu, 19 Nov 2026 14:52:06 GMT</pubDate>
+      <sparkle:version>34</sparkle:version>
+      <sparkle:shortVersionString>0.7.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <description><![CDATA[<p>Requires a Mac with Apple silicon (M1 or later) and macOS 14 or later.</p><ul><li>The article header now shows the site icon next to the feed name.</li></ul>]]></description>
+      <enclosure url="https://github.com/linus-ground/brisk/releases/download/v0.7.1/Brisk-0.7.1.dmg" length="2382128" type="application/octet-stream" sparkle:edSignature="l2clLOJ5M6lfOvAoWHMnFzgwWrBr/mTSyl3BSkU9tptKXPiUzOxxi8vwDsjlIgF+ouiARKOD0CpSFZCgtiuSAw=="/>
+    </item>
+    <item>
       <title>Brisk 0.7.0</title>
       <pubDate>Thu, 19 Nov 2026 14:42:30 GMT</pubDate>
       <sparkle:version>33</sparkle:version>
