@@ -7,6 +7,16 @@
     <language>en</language>
     <!-- New releases are inserted directly below this line. -->
     <item>
+      <title>Brisk 0.7.0</title>
+      <pubDate>Thu, 19 Nov 2026 14:42:30 GMT</pubDate>
+      <sparkle:version>33</sparkle:version>
+      <sparkle:shortVersionString>0.7.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <description><![CDATA[<p>Requires a Mac with Apple silicon (M1 or later) and macOS 14 or later.</p><ul><li>New &quot;Today&quot; smart list in the sidebar shows articles published since midnight. It can also be chosen in widgets.</li><li>The article list now shows a small picture for each article, taken from the feed or the first image in the article. Only visible rows are loaded. You can turn this off in Settings &gt; List.</li><li>New option in Settings &gt; List: mark articles as read when you scroll past them.</li><li>Quiet hours: in Settings &gt; Notifications, choose a time range when Brisk won&#x27;t send new-article notifications. Articles are still downloaded.</li><li>The menu bar icon is larger and easier to see.</li></ul>]]></description>
+      <enclosure url="https://github.com/linus-ground/brisk/releases/download/v0.7.0/Brisk-0.7.0.dmg" length="2382176" type="application/octet-stream" sparkle:edSignature="YKhB60xRl5o2ur+O+7apWtZALM0p/DFOOZExBcMTWMgDObD1Rk80v2Amf3pr+UiqtGtKacgUX6zUeaDtGzxxDQ=="/>
+    </item>
+    <item>
       <title>Brisk 0.6.4</title>
       <pubDate>Thu, 19 Nov 2026 14:16:52 GMT</pubDate>
       <sparkle:version>32</sparkle:version>
