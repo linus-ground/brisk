@@ -7,6 +7,16 @@
     <language>en</language>
     <!-- New releases are inserted directly below this line. -->
     <item>
+      <title>Brisk 0.6.2</title>
+      <pubDate>Thu, 19 Nov 2026 11:28:47 GMT</pubDate>
+      <sparkle:version>30</sparkle:version>
+      <sparkle:shortVersionString>0.6.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <description><![CDATA[<p>Requires a Mac with Apple silicon (M1 or later) and macOS 14 or later.</p><ul><li>Select multiple folders and subscriptions in the sidebar with Command-click or Shift-click. The article list shows articles from everything selected, and search and Mark All as Read apply to the selection.</li><li>Drag several subscriptions or folders at once. When multiple items are dragged, the first item is shown with a &quot;+N&quot; badge.</li><li>OPML export and import now preserve empty folders, sidebar order, custom names, and per-feed settings such as notifications, full text, translation, check interval, and retention. OPML files from other apps still import as before.</li><li>When adding a subscription, you can edit its name before saving.</li><li>Toolbar and floating action icons now show their names as tooltips.</li></ul>]]></description>
+      <enclosure url="https://github.com/linus-ground/brisk/releases/download/v0.6.2/Brisk-0.6.2.dmg" length="2305344" type="application/octet-stream" sparkle:edSignature="aDdkwsws4hTpId960xoOvhqQtzWwpqtBh2GtVpLcJAFW0QWxHbMdFyYGVVcQy73HWJk48eGkm6BHYZICLBweDQ=="/>
+    </item>
+    <item>
       <title>Brisk 0.6.1</title>
       <pubDate>Wed, 18 Nov 2026 15:18:23 GMT</pubDate>
       <sparkle:version>29</sparkle:version>
