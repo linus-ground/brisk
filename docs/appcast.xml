@@ -7,6 +7,16 @@
     <language>en</language>
     <!-- New releases are inserted directly below this line. -->
     <item>
+      <title>Brisk 0.8.0</title>
+      <pubDate>Fri, 20 Nov 2026 13:54:00 GMT</pubDate>
+      <sparkle:version>36</sparkle:version>
+      <sparkle:shortVersionString>0.8.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <description><![CDATA[<p>Requires a Mac with Apple silicon (M1 or later) and macOS 14 or later.</p><ul><li>Keyword rules: in Settings &gt; Rules, set a keyword and choose what happens when a new article&#x27;s title (or title and content) contains it — mark it as read, star it, or get a notification even if the subscription&#x27;s notifications are off. Rules can apply to all subscriptions or just one, and can also be applied to articles you already have.</li><li>Reading settings: in Settings &gt; Reading, choose the font, text size, line spacing, and text width for articles. You can also use View &gt; Bigger Text (⌘+), Smaller Text (⌘−), and Default Text Size (⌘0). Changes apply instantly without losing your place.</li><li>Export starred articles to a single HTML or Markdown file from the File menu. Useful as a backup, since older articles can disappear from feeds.</li></ul>]]></description>
+      <enclosure url="https://github.com/linus-ground/brisk/releases/download/v0.8.0/Brisk-0.8.0.dmg" length="2411759" type="application/octet-stream" sparkle:edSignature="0f38Un/bbwoXvVSL1vJcd4ut7bBnvuyOG6juTL5sxHcnMjgvbAQWMKvH09/rLJlG9wEgSMp6q8Yc0+yyi+gMAQ=="/>
+    </item>
+    <item>
       <title>Brisk 0.7.2</title>
       <pubDate>Fri, 20 Nov 2026 09:33:51 GMT</pubDate>
       <sparkle:version>35</sparkle:version>
