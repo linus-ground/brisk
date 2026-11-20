@@ -7,6 +7,16 @@
     <language>en</language>
     <!-- New releases are inserted directly below this line. -->
     <item>
+      <title>Brisk 0.7.2</title>
+      <pubDate>Fri, 20 Nov 2026 09:33:51 GMT</pubDate>
+      <sparkle:version>35</sparkle:version>
+      <sparkle:shortVersionString>0.7.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <description><![CDATA[<p>Requires a Mac with Apple silicon (M1 or later) and macOS 14 or later.</p><ul><li>Changing the default refresh interval in Settings &gt; Refresh now takes effect right away. Previously, the new interval only applied after each subscription&#x27;s next scheduled refresh, so shortening it from 15 to 5 minutes could still wait up to 15 minutes.</li></ul>]]></description>
+      <enclosure url="https://github.com/linus-ground/brisk/releases/download/v0.7.2/Brisk-0.7.2.dmg" length="2382848" type="application/octet-stream" sparkle:edSignature="9dC2PDQ9xv7oL3pFc/fuT4k7dBuYeBEXJQIL/kY77DPsuxRUwW2oq9BgbsoKZ9ovtIZTo7VginRD6AH3toxzDA=="/>
+    </item>
+    <item>
       <title>Brisk 0.7.1</title>
       <pubDate>Thu, 19 Nov 2026 14:52:06 GMT</pubDate>
       <sparkle:version>34</sparkle:version>
