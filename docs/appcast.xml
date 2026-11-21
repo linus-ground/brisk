@@ -7,6 +7,16 @@
     <language>en</language>
     <!-- New releases are inserted directly below this line. -->
     <item>
+      <title>Brisk 0.8.1</title>
+      <pubDate>Sat, 21 Nov 2026 15:30:46 GMT</pubDate>
+      <sparkle:version>37</sparkle:version>
+      <sparkle:shortVersionString>0.8.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <description><![CDATA[<p>Requires a Mac with Apple silicon (M1 or later) and macOS 14 or later.</p><ul><li>Sidebar folders: a single click now shows all articles in the folder without collapsing it. Double-click a folder (or click its disclosure arrow) to collapse or expand it; the article list is not reloaded.</li><li>Site icons that failed to download because the network was unavailable are retried after an hour, without restarting the app.</li><li>Fetching the full article now stops right away when you move to another article.</li></ul>]]></description>
+      <enclosure url="https://github.com/linus-ground/brisk/releases/download/v0.8.1/Brisk-0.8.1.dmg" length="2411483" type="application/octet-stream" sparkle:edSignature="2YenALK6ak84On2/bf29VyeD+3R0pm08B0UvfWv1YifOzPFJc3HzBvdsvozj+TZNk9zy6jBGr/M54Q33pJ26AA=="/>
+    </item>
+    <item>
       <title>Brisk 0.8.0</title>
       <pubDate>Fri, 20 Nov 2026 13:54:00 GMT</pubDate>
       <sparkle:version>36</sparkle:version>
