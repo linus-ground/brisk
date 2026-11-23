@@ -7,6 +7,16 @@
     <language>en</language>
     <!-- New releases are inserted directly below this line. -->
     <item>
+      <title>Brisk 0.9.3</title>
+      <pubDate>Mon, 23 Nov 2026 08:59:43 GMT</pubDate>
+      <sparkle:version>41</sparkle:version>
+      <sparkle:shortVersionString>0.9.3</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <description><![CDATA[<p>Requires a Mac with Apple silicon (M1 or later) and macOS 14 or later.</p><ul><li>A rule can now cover several folders and subscriptions at once, such as a Tech folder and a news folder. Click the Scope button in the rule editor and check the ones you want; leave everything unchecked for all subscriptions. A rule matches articles from any of the selected places.</li><li>To start a rule for several sources, ⌘-click them in the sidebar, then right-click and choose &quot;Add Rule for N Selected…&quot;.</li><li>Existing rules keep their scope. Deleting a folder or subscription removes it from a rule&#x27;s scope; a rule whose scope becomes empty is deleted rather than widened to all subscriptions.</li><li>Fixed: right-clicking one of several items selected in the sidebar now shows the menu for the whole selection (mark all as read, refresh, move to folder, add rule) instead of just the clicked item.</li></ul>]]></description>
+      <enclosure url="https://github.com/linus-ground/brisk/releases/download/v0.9.3/Brisk-0.9.3.dmg" length="2564245" type="application/octet-stream" sparkle:edSignature="hqXGrzI1ISV8lprzPeeNIx+2prLzSdf2tygWtWOQdH6EIm7u718IeuCcILg1YLSsiORlaSyc6MF40UGNvRtODQ=="/>
+    </item>
+    <item>
       <title>Brisk 0.9.2</title>
       <pubDate>Mon, 23 Nov 2026 08:23:22 GMT</pubDate>
       <sparkle:version>40</sparkle:version>
@@ -95,16 +105,6 @@
       <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
       <description><![CDATA[<p>Requires a Mac with Apple silicon (M1 or later) and macOS 14 or later.</p><ul><li>Subscriptions now show their site icons in the sidebar and next to the feed name in the article list. Subscriptions with notifications turned on show a small bell next to their name.</li><li>Search is faster and more accurate. It no longer matches text hidden inside HTML markup, such as link addresses or style names, and it still finds parts of words.</li><li>After updating, articles you already have are added to the search index in the background. Until that finishes, some older articles may not appear in search results.</li></ul>]]></description>
       <enclosure url="https://github.com/linus-ground/brisk/releases/download/v0.6.4/Brisk-0.6.4.dmg" length="2352904" type="application/octet-stream" sparkle:edSignature="sk05nuYcAOYbGyXJu2xzdroMu5Y48kQgSmgWdMPW1Es2ujLF7RdQ3/NL1HnAaTtMYho9DBrG9/+gAYZANqx3Aw=="/>
-    </item>
-    <item>
-      <title>Brisk 0.6.3</title>
-      <pubDate>Thu, 19 Nov 2026 12:01:44 GMT</pubDate>
-      <sparkle:version>31</sparkle:version>
-      <sparkle:shortVersionString>0.6.3</sparkle:shortVersionString>
-      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-      <description><![CDATA[<p>Requires a Mac with Apple silicon (M1 or later) and macOS 14 or later.</p><ul><li>Brisk no longer becomes unresponsive with large numbers of articles. The article list now loads 300 articles at a time and loads more as you scroll, so marking articles as read, searching, and switching lists stay responsive.</li><li>Mark All as Read, deleting subscriptions or folders, resetting articles, and importing OPML now run in the background. If an operation takes longer than a moment, a progress indicator appears at the bottom of the article list.</li><li>While searching, Mark All as Read now applies to every matching article, not only the ones loaded in the list.</li><li>The article count next to the list title always shows the total number of articles.</li></ul>]]></description>
-      <enclosure url="https://github.com/linus-ground/brisk/releases/download/v0.6.3/Brisk-0.6.3.dmg" length="2310800" type="application/octet-stream" sparkle:edSignature="A7PFQ5ofI6Y/+/2HyFudKb8aRKwCJp3Be/n9tiklVkWVbO8W93jsxplxQ6ceTLUKMsAQ6+vcT6an8dkBwZ9GCA=="/>
     </item>
   </channel>
 </rss>
