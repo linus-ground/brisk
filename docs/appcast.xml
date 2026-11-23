@@ -7,6 +7,16 @@
     <language>en</language>
     <!-- New releases are inserted directly below this line. -->
     <item>
+      <title>Brisk 0.9.1</title>
+      <pubDate>Mon, 23 Nov 2026 08:04:18 GMT</pubDate>
+      <sparkle:version>39</sparkle:version>
+      <sparkle:shortVersionString>0.9.1</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <description><![CDATA[<p>Requires a Mac with Apple silicon (M1 or later) and macOS 14 or later.</p><ul><li>Keyword rules now have three word fields: &quot;All of&quot; (every word must appear), &quot;Any of&quot; (at least one must appear), and &quot;None of&quot; (excluded if any appears). For example, All of &quot;Apple&quot;, Any of &quot;MacBook iPhone&quot;, None of &quot;ad&quot; matches articles about Apple&#x27;s MacBook or iPhone that aren&#x27;t ads.</li><li>Add a rule straight from the sidebar: right-click a folder or subscription and choose &quot;Add Rule for This Folder…&quot; or &quot;Add Rule for This Subscription…&quot; to start with that scope, or use &quot;Add Rule…&quot; in the right-click menu or the + button.</li><li>Rules can now be edited. Click the pencil (or double-click a rule) in Settings &gt; Rules, or choose &quot;Edit Rule…&quot; on a collected list in the sidebar.</li></ul>]]></description>
+      <enclosure url="https://github.com/linus-ground/brisk/releases/download/v0.9.1/Brisk-0.9.1.dmg" length="2531181" type="application/octet-stream" sparkle:edSignature="8utS6B9J//vTmvZPgP4JWdSYY5v14UGt1Zv5ZNvwBO+VZS7z4hYiGZakzJo092UwRcWfLyqchyv83fCpgypoBA=="/>
+    </item>
+    <item>
       <title>Brisk 0.9.0</title>
       <pubDate>Mon, 23 Nov 2026 07:44:25 GMT</pubDate>
       <sparkle:version>38</sparkle:version>
@@ -95,16 +105,6 @@
       <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
       <description><![CDATA[<p>Requires a Mac with Apple silicon (M1 or later) and macOS 14 or later.</p><ul><li>Select multiple folders and subscriptions in the sidebar with Command-click or Shift-click. The article list shows articles from everything selected, and search and Mark All as Read apply to the selection.</li><li>Drag several subscriptions or folders at once. When multiple items are dragged, the first item is shown with a &quot;+N&quot; badge.</li><li>OPML export and import now preserve empty folders, sidebar order, custom names, and per-feed settings such as notifications, full text, translation, check interval, and retention. OPML files from other apps still import as before.</li><li>When adding a subscription, you can edit its name before saving.</li><li>Toolbar and floating action icons now show their names as tooltips.</li></ul>]]></description>
       <enclosure url="https://github.com/linus-ground/brisk/releases/download/v0.6.2/Brisk-0.6.2.dmg" length="2305344" type="application/octet-stream" sparkle:edSignature="aDdkwsws4hTpId960xoOvhqQtzWwpqtBh2GtVpLcJAFW0QWxHbMdFyYGVVcQy73HWJk48eGkm6BHYZICLBweDQ=="/>
-    </item>
-    <item>
-      <title>Brisk 0.6.1</title>
-      <pubDate>Wed, 18 Nov 2026 15:18:23 GMT</pubDate>
-      <sparkle:version>29</sparkle:version>
-      <sparkle:shortVersionString>0.6.1</sparkle:shortVersionString>
-      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-      <description><![CDATA[<p>Requires a Mac with Apple silicon (M1 or later) and macOS 14 or later.</p><ul><li>Language setting: Brisk is now available in Korean and English. Korean remains the default. To change the language, open Settings &gt; General &gt; Language; Brisk restarts to apply it.</li><li>Widgets show their content in the selected language.</li><li>The disk image now includes English installation instructions.</li></ul>]]></description>
-      <enclosure url="https://github.com/linus-ground/brisk/releases/download/v0.6.1/Brisk-0.6.1.dmg" length="2308476" type="application/octet-stream" sparkle:edSignature="8YK9f/SG/XU8tNWd8h2zKg0bVzIDQiusBs7UQk7fEoO23MHmdcAb3VnzbAD9yZg4fKt0fdTSIcxGa4kUXuQLCA=="/>
     </item>
   </channel>
 </rss>
