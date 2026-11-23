@@ -7,6 +7,16 @@
     <language>en</language>
     <!-- New releases are inserted directly below this line. -->
     <item>
+      <title>Brisk 0.9.2</title>
+      <pubDate>Mon, 23 Nov 2026 08:23:22 GMT</pubDate>
+      <sparkle:version>40</sparkle:version>
+      <sparkle:shortVersionString>0.9.2</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <description><![CDATA[<p>Requires a Mac with Apple silicon (M1 or later) and macOS 14 or later.</p><ul><li>Rule words are now entered as chips. Type a word and press Space, comma, or Return to turn it into a chip; select a chip and press Delete to remove it. This fixes typing in the rule word fields, where Space didn&#x27;t work with Korean input and only a couple of characters could be entered.</li><li>Every rule can have a name, set when you create it. The name appears in Settings &gt; Rules and, for &quot;Collect in List&quot; rules, in the sidebar. Leave it empty to show the rule&#x27;s words as before.</li></ul>]]></description>
+      <enclosure url="https://github.com/linus-ground/brisk/releases/download/v0.9.2/Brisk-0.9.2.dmg" length="2552219" type="application/octet-stream" sparkle:edSignature="bZwqzAF3LCyZpDy/cTDP2M64fO5jNNeDuqq/Xr+Xw/8Z1SDOjoLLy/Hjm5fONpHRVUktblixnUzrwmrQttzkBg=="/>
+    </item>
+    <item>
       <title>Brisk 0.9.1</title>
       <pubDate>Mon, 23 Nov 2026 08:04:18 GMT</pubDate>
       <sparkle:version>39</sparkle:version>
@@ -95,16 +105,6 @@
       <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
       <description><![CDATA[<p>Requires a Mac with Apple silicon (M1 or later) and macOS 14 or later.</p><ul><li>Brisk no longer becomes unresponsive with large numbers of articles. The article list now loads 300 articles at a time and loads more as you scroll, so marking articles as read, searching, and switching lists stay responsive.</li><li>Mark All as Read, deleting subscriptions or folders, resetting articles, and importing OPML now run in the background. If an operation takes longer than a moment, a progress indicator appears at the bottom of the article list.</li><li>While searching, Mark All as Read now applies to every matching article, not only the ones loaded in the list.</li><li>The article count next to the list title always shows the total number of articles.</li></ul>]]></description>
       <enclosure url="https://github.com/linus-ground/brisk/releases/download/v0.6.3/Brisk-0.6.3.dmg" length="2310800" type="application/octet-stream" sparkle:edSignature="A7PFQ5ofI6Y/+/2HyFudKb8aRKwCJp3Be/n9tiklVkWVbO8W93jsxplxQ6ceTLUKMsAQ6+vcT6an8dkBwZ9GCA=="/>
-    </item>
-    <item>
-      <title>Brisk 0.6.2</title>
-      <pubDate>Thu, 19 Nov 2026 11:28:47 GMT</pubDate>
-      <sparkle:version>30</sparkle:version>
-      <sparkle:shortVersionString>0.6.2</sparkle:shortVersionString>
-      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-      <description><![CDATA[<p>Requires a Mac with Apple silicon (M1 or later) and macOS 14 or later.</p><ul><li>Select multiple folders and subscriptions in the sidebar with Command-click or Shift-click. The article list shows articles from everything selected, and search and Mark All as Read apply to the selection.</li><li>Drag several subscriptions or folders at once. When multiple items are dragged, the first item is shown with a &quot;+N&quot; badge.</li><li>OPML export and import now preserve empty folders, sidebar order, custom names, and per-feed settings such as notifications, full text, translation, check interval, and retention. OPML files from other apps still import as before.</li><li>When adding a subscription, you can edit its name before saving.</li><li>Toolbar and floating action icons now show their names as tooltips.</li></ul>]]></description>
-      <enclosure url="https://github.com/linus-ground/brisk/releases/download/v0.6.2/Brisk-0.6.2.dmg" length="2305344" type="application/octet-stream" sparkle:edSignature="aDdkwsws4hTpId960xoOvhqQtzWwpqtBh2GtVpLcJAFW0QWxHbMdFyYGVVcQy73HWJk48eGkm6BHYZICLBweDQ=="/>
     </item>
   </channel>
 </rss>
