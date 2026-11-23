@@ -7,6 +7,16 @@
     <language>en</language>
     <!-- New releases are inserted directly below this line. -->
     <item>
+      <title>Brisk 0.9.0</title>
+      <pubDate>Mon, 23 Nov 2026 07:44:25 GMT</pubDate>
+      <sparkle:version>38</sparkle:version>
+      <sparkle:shortVersionString>0.9.0</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <description><![CDATA[<p>Requires a Mac with Apple silicon (M1 or later) and macOS 14 or later.</p><ul><li>Duplicate articles are grouped. When the same article arrives from several subscriptions (the same link, or the same title from another subscription within two days), the list shows it once with &quot;+N more&quot;. Reading one marks the copies as read, a copy of an article you&#x27;ve already read arrives as read, and you won&#x27;t be notified about it again. The article header lists the other subscriptions it came from. You can turn this off in Settings &gt; List.</li><li>Keyword rules can collect articles into a list. Choose &quot;Collect in List&quot; in Settings &gt; Rules and the list appears under Smart Lists in the sidebar, like Today, with its unread count. It includes existing articles right away. Rules can now also be limited to a single folder.</li><li>New articles no longer make you lose your place. If new articles arrive above while you&#x27;re scrolled down, the list stays where you were and a &quot;N New&quot; button appears; click it to jump to the top. Home and End scroll the list to the top or bottom, ⌘↑ and ⌘↓ select the first or last article, and clicking the selected sidebar item again scrolls back to the top.</li></ul>]]></description>
+      <enclosure url="https://github.com/linus-ground/brisk/releases/download/v0.9.0/Brisk-0.9.0.dmg" length="2523757" type="application/octet-stream" sparkle:edSignature="7j5D9P9+WiuhXV7rUIH181kWCqMdKhSLlR1lfmcSQUWta4jiv9tTd1GKNUctbj6BlCc4bx/V2VQ8m1XaZrfRBQ=="/>
+    </item>
+    <item>
       <title>Brisk 0.8.1</title>
       <pubDate>Sat, 21 Nov 2026 15:30:46 GMT</pubDate>
       <sparkle:version>37</sparkle:version>
@@ -95,16 +105,6 @@
       <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
       <description><![CDATA[<p>Requires a Mac with Apple silicon (M1 or later) and macOS 14 or later.</p><ul><li>Language setting: Brisk is now available in Korean and English. Korean remains the default. To change the language, open Settings &gt; General &gt; Language; Brisk restarts to apply it.</li><li>Widgets show their content in the selected language.</li><li>The disk image now includes English installation instructions.</li></ul>]]></description>
       <enclosure url="https://github.com/linus-ground/brisk/releases/download/v0.6.1/Brisk-0.6.1.dmg" length="2308476" type="application/octet-stream" sparkle:edSignature="8YK9f/SG/XU8tNWd8h2zKg0bVzIDQiusBs7UQk7fEoO23MHmdcAb3VnzbAD9yZg4fKt0fdTSIcxGa4kUXuQLCA=="/>
-    </item>
-    <item>
-      <title>Brisk 0.6.0</title>
-      <pubDate>Wed, 18 Nov 2026 15:02:46 GMT</pubDate>
-      <sparkle:version>28</sparkle:version>
-      <sparkle:shortVersionString>0.6.0</sparkle:shortVersionString>
-      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-      <description><![CDATA[<p>Requires a Mac with Apple silicon (M1 or later) and macOS 14 or later.</p><ul><li>In-app updates: Brisk checks for new versions once a day and installs them on request (Check for Updates in the menu)</li><li>Keyboard focus moves between the sidebar, article list, and article view with the Left and Right arrow keys; Up and Down scroll the article view</li><li>Search within the current list (Command-F), per-feed notification toggle, and list actions that are always visible</li><li>Folders and subscriptions can be reordered and moved by dragging in the sidebar</li><li>Improved full-text retrieval, plus refresh and memory performance improvements</li></ul><p>Earlier versions do not include the updater. Install this version manually once; later versions will be delivered automatically.</p>]]></description>
-      <enclosure url="https://github.com/linus-ground/brisk/releases/download/v0.6.0/Brisk-0.6.0.dmg" length="2297299" type="application/octet-stream" sparkle:edSignature="TFDjn+MwK05qxYpr4/NLtvpfAuGdfpEWPVEOL0f0GmEjSiflGlpvFm4424Tzk5KfE/J9AHy5/KPQ8rmIWpeMAg=="/>
     </item>
   </channel>
 </rss>
