@@ -7,6 +7,16 @@
     <language>en</language>
     <!-- New releases are inserted directly below this line. -->
     <item>
+      <title>Brisk 0.9.4</title>
+      <pubDate>Tue, 24 Nov 2026 05:01:34 GMT</pubDate>
+      <sparkle:version>42</sparkle:version>
+      <sparkle:shortVersionString>0.9.4</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <description><![CDATA[<p>Requires a Mac with Apple silicon (M1 or later) and macOS 14 or later.</p><ul><li>The article list now starts at the top whenever you switch to another list in the sidebar (or change Hide Read, the sort order, or the search). Previously it could stay partway down where you&#x27;d scrolled in the previous list. Opening an article from a notification or widget still scrolls to that article.</li></ul>]]></description>
+      <enclosure url="https://github.com/linus-ground/brisk/releases/download/v0.9.4/Brisk-0.9.4.dmg" length="2568813" type="application/octet-stream" sparkle:edSignature="bCW//iCYX3I2LpVJgqgSePgX6Tdpbv+Lx4byqcSRM0bKyc8E/gJRgKTzc3lb3JJuKh+/MHRvkHtqXi7uyAKeBQ=="/>
+    </item>
+    <item>
       <title>Brisk 0.9.3</title>
       <pubDate>Mon, 23 Nov 2026 08:59:43 GMT</pubDate>
       <sparkle:version>41</sparkle:version>
@@ -95,16 +105,6 @@
       <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
       <description><![CDATA[<p>Requires a Mac with Apple silicon (M1 or later) and macOS 14 or later.</p><ul><li>New &quot;Today&quot; smart list in the sidebar shows articles published since midnight. It can also be chosen in widgets.</li><li>The article list now shows a small picture for each article, taken from the feed or the first image in the article. Only visible rows are loaded. You can turn this off in Settings &gt; List.</li><li>New option in Settings &gt; List: mark articles as read when you scroll past them.</li><li>Quiet hours: in Settings &gt; Notifications, choose a time range when Brisk won&#x27;t send new-article notifications. Articles are still downloaded.</li><li>The menu bar icon is larger and easier to see.</li></ul>]]></description>
       <enclosure url="https://github.com/linus-ground/brisk/releases/download/v0.7.0/Brisk-0.7.0.dmg" length="2382176" type="application/octet-stream" sparkle:edSignature="YKhB60xRl5o2ur+O+7apWtZALM0p/DFOOZExBcMTWMgDObD1Rk80v2Amf3pr+UiqtGtKacgUX6zUeaDtGzxxDQ=="/>
-    </item>
-    <item>
-      <title>Brisk 0.6.4</title>
-      <pubDate>Thu, 19 Nov 2026 14:16:52 GMT</pubDate>
-      <sparkle:version>32</sparkle:version>
-      <sparkle:shortVersionString>0.6.4</sparkle:shortVersionString>
-      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-      <description><![CDATA[<p>Requires a Mac with Apple silicon (M1 or later) and macOS 14 or later.</p><ul><li>Subscriptions now show their site icons in the sidebar and next to the feed name in the article list. Subscriptions with notifications turned on show a small bell next to their name.</li><li>Search is faster and more accurate. It no longer matches text hidden inside HTML markup, such as link addresses or style names, and it still finds parts of words.</li><li>After updating, articles you already have are added to the search index in the background. Until that finishes, some older articles may not appear in search results.</li></ul>]]></description>
-      <enclosure url="https://github.com/linus-ground/brisk/releases/download/v0.6.4/Brisk-0.6.4.dmg" length="2352904" type="application/octet-stream" sparkle:edSignature="sk05nuYcAOYbGyXJu2xzdroMu5Y48kQgSmgWdMPW1Es2ujLF7RdQ3/NL1HnAaTtMYho9DBrG9/+gAYZANqx3Aw=="/>
     </item>
   </channel>
 </rss>
