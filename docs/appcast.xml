@@ -7,6 +7,16 @@
     <language>en</language>
     <!-- New releases are inserted directly below this line. -->
     <item>
+      <title>Brisk 0.9.6</title>
+      <pubDate>Thu, 26 Nov 2026 03:31:04 GMT</pubDate>
+      <sparkle:version>44</sparkle:version>
+      <sparkle:shortVersionString>0.9.6</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <description><![CDATA[<p>Requires a Mac with Apple silicon (M1 or later) and macOS 14 or later.</p><ul><li>Notifications for collected lists now work the same way as for subscriptions. Select a collected list and use the bell button above the article list, or turn on &quot;Notify about new articles&quot; when editing the rule (the same wording as for subscriptions). The extra right-click menu item has been removed, matching subscriptions. Lists with notifications on still show a small bell in the sidebar.</li></ul>]]></description>
+      <enclosure url="https://github.com/linus-ground/brisk/releases/download/v0.9.6/Brisk-0.9.6.dmg" length="2576273" type="application/octet-stream" sparkle:edSignature="WJcv/KkSmgrnmxYnmunRJ0TvzXYhOiu/OfSUocVJL0rRMtwLlNHdBqlpQaeqZLOEpJW92YxcItPQRNwwvJxFBg=="/>
+    </item>
+    <item>
       <title>Brisk 0.9.5</title>
       <pubDate>Thu, 26 Nov 2026 03:14:14 GMT</pubDate>
       <sparkle:version>43</sparkle:version>
@@ -95,16 +105,6 @@
       <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
       <description><![CDATA[<p>Requires a Mac with Apple silicon (M1 or later) and macOS 14 or later.</p><ul><li>Changing the default refresh interval in Settings &gt; Refresh now takes effect right away. Previously, the new interval only applied after each subscription&#x27;s next scheduled refresh, so shortening it from 15 to 5 minutes could still wait up to 15 minutes.</li></ul>]]></description>
       <enclosure url="https://github.com/linus-ground/brisk/releases/download/v0.7.2/Brisk-0.7.2.dmg" length="2382848" type="application/octet-stream" sparkle:edSignature="9dC2PDQ9xv7oL3pFc/fuT4k7dBuYeBEXJQIL/kY77DPsuxRUwW2oq9BgbsoKZ9ovtIZTo7VginRD6AH3toxzDA=="/>
-    </item>
-    <item>
-      <title>Brisk 0.7.1</title>
-      <pubDate>Thu, 19 Nov 2026 14:52:06 GMT</pubDate>
-      <sparkle:version>34</sparkle:version>
-      <sparkle:shortVersionString>0.7.1</sparkle:shortVersionString>
-      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-      <description><![CDATA[<p>Requires a Mac with Apple silicon (M1 or later) and macOS 14 or later.</p><ul><li>The article header now shows the site icon next to the feed name.</li></ul>]]></description>
-      <enclosure url="https://github.com/linus-ground/brisk/releases/download/v0.7.1/Brisk-0.7.1.dmg" length="2382128" type="application/octet-stream" sparkle:edSignature="l2clLOJ5M6lfOvAoWHMnFzgwWrBr/mTSyl3BSkU9tptKXPiUzOxxi8vwDsjlIgF+ouiARKOD0CpSFZCgtiuSAw=="/>
     </item>
   </channel>
 </rss>
