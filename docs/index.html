@@ -25,6 +25,11 @@
   li { margin: 4px 0; }
   a { color: var(--accent); }
   footer { color: var(--muted); font-size: 13px; margin-top: 48px; }
+  .shot { width: min(960px, calc(100vw - 40px)); margin: 36px 0 0 50%; transform: translateX(-50%); }
+  .shot img, figure img { display: block; width: 100%; height: auto; border-radius: 12px;
+         box-shadow: 0 1px 3px rgba(0,0,0,.12), 0 12px 40px rgba(0,0,0,.14); }
+  figure { margin: 20px 0 28px; }
+  figcaption { color: var(--muted); font-size: 14px; margin-top: 10px; }
 </style>
 </head>
 <body>
@@ -35,6 +40,26 @@
 
   <a class="btn" href="https://github.com/linus-ground/brisk/releases/latest">Download the latest version</a>
   <p class="req">Requires a Mac with Apple silicon (M1 or later) and macOS 14 Sonoma or later.</p>
+
+  <picture class="shot">
+    <source srcset="screenshots/main-dark.png" media="(prefers-color-scheme: dark)">
+    <img src="screenshots/main-light.png" width="1600" height="1006"
+         alt="Brisk with a folder of subscriptions in the sidebar, its articles in the middle, and the selected article on the right">
+  </picture>
+
+  <h2>Keyword rules</h2>
+  <p>Rules match words in titles or content. They can collect matching articles into a list in the sidebar,
+     star them, or mark them as read. Each rule can also notify you about new matches.</p>
+  <figure>
+    <img src="screenshots/collected.png" width="1600" height="1006" loading="lazy"
+         alt="A collected list named Swift &amp; Mac showing two matching articles, with a bell button above the list">
+    <figcaption>A collected list gathers matching articles from your subscriptions.</figcaption>
+  </figure>
+  <figure>
+    <img src="screenshots/rule.png" width="1600" height="1006" loading="lazy"
+         alt="The Edit Rule sheet with Any of: Swift, macOS; action Collect in List; notifications on">
+    <figcaption>Combine words with All of, Any of, and None of, and limit a rule to chosen folders or subscriptions.</figcaption>
+  </figure>
 
   <h2>Installation</h2>
   <ol>
@@ -55,6 +80,7 @@
   <h2>Features</h2>
   <ul>
     <li>Folders and subscriptions with drag-and-drop organization; unread and starred lists</li>
+    <li>Keyword rules that collect, star, or mark articles as read, and grouping of duplicate articles</li>
     <li>Full-text article retrieval and on-device translation</li>
     <li>In-list search, single-key shortcuts (J/K/M/S/V), new-article notifications, and a desktop widget</li>
   </ul>
