@@ -7,6 +7,16 @@
     <language>en</language>
     <!-- New releases are inserted directly below this line. -->
     <item>
+      <title>Brisk 0.9.5</title>
+      <pubDate>Thu, 26 Nov 2026 03:14:14 GMT</pubDate>
+      <sparkle:version>43</sparkle:version>
+      <sparkle:shortVersionString>0.9.5</sparkle:shortVersionString>
+      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
+      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
+      <description><![CDATA[<p>Requires a Mac with Apple silicon (M1 or later) and macOS 14 or later.</p><ul><li>Notifications are now a switch on each rule instead of a separate &quot;Notify&quot; action. Turn on &quot;Notify About New Articles&quot; in any rule (except rules that mark articles as read) to be notified about new matches, even when the subscription&#x27;s own notifications are off. Subscription notification settings are unchanged.</li><li>Notifications for a collected list look like subscription notifications: the title is the list&#x27;s name, several new articles are grouped as &quot;N new&quot;, and clicking opens that list with the article selected. Lists with notifications on show a small bell in the sidebar, and you can switch it from the list&#x27;s right-click menu.</li><li>Existing &quot;Notify&quot; rules are converted to &quot;Collect in List&quot; rules with notifications on, so they now also appear as lists in the sidebar.</li></ul>]]></description>
+      <enclosure url="https://github.com/linus-ground/brisk/releases/download/v0.9.5/Brisk-0.9.5.dmg" length="2575197" type="application/octet-stream" sparkle:edSignature="F8TjJci1EBSeEq/gY2sb3r/J+24w6gi2RgguQ5MgpiNkxr/5ZMdMIuVStAii4a/X8iS2QYJmafE/qf3/9lR6Dw=="/>
+    </item>
+    <item>
       <title>Brisk 0.9.4</title>
       <pubDate>Tue, 24 Nov 2026 05:01:34 GMT</pubDate>
       <sparkle:version>42</sparkle:version>
@@ -95,16 +105,6 @@
       <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
       <description><![CDATA[<p>Requires a Mac with Apple silicon (M1 or later) and macOS 14 or later.</p><ul><li>The article header now shows the site icon next to the feed name.</li></ul>]]></description>
       <enclosure url="https://github.com/linus-ground/brisk/releases/download/v0.7.1/Brisk-0.7.1.dmg" length="2382128" type="application/octet-stream" sparkle:edSignature="l2clLOJ5M6lfOvAoWHMnFzgwWrBr/mTSyl3BSkU9tptKXPiUzOxxi8vwDsjlIgF+ouiARKOD0CpSFZCgtiuSAw=="/>
-    </item>
-    <item>
-      <title>Brisk 0.7.0</title>
-      <pubDate>Thu, 19 Nov 2026 14:42:30 GMT</pubDate>
-      <sparkle:version>33</sparkle:version>
-      <sparkle:shortVersionString>0.7.0</sparkle:shortVersionString>
-      <sparkle:minimumSystemVersion>14.0</sparkle:minimumSystemVersion>
-      <sparkle:hardwareRequirements>arm64</sparkle:hardwareRequirements>
-      <description><![CDATA[<p>Requires a Mac with Apple silicon (M1 or later) and macOS 14 or later.</p><ul><li>New &quot;Today&quot; smart list in the sidebar shows articles published since midnight. It can also be chosen in widgets.</li><li>The article list now shows a small picture for each article, taken from the feed or the first image in the article. Only visible rows are loaded. You can turn this off in Settings &gt; List.</li><li>New option in Settings &gt; List: mark articles as read when you scroll past them.</li><li>Quiet hours: in Settings &gt; Notifications, choose a time range when Brisk won&#x27;t send new-article notifications. Articles are still downloaded.</li><li>The menu bar icon is larger and easier to see.</li></ul>]]></description>
-      <enclosure url="https://github.com/linus-ground/brisk/releases/download/v0.7.0/Brisk-0.7.0.dmg" length="2382176" type="application/octet-stream" sparkle:edSignature="YKhB60xRl5o2ur+O+7apWtZALM0p/DFOOZExBcMTWMgDObD1Rk80v2Amf3pr+UiqtGtKacgUX6zUeaDtGzxxDQ=="/>
     </item>
   </channel>
 </rss>
