@@ -2,6 +2,8 @@
 
 Brisk is a lightweight RSS reader for macOS.
 
+![Brisk main window](docs/screenshots/main-light.png)
+
 This repository is used for distribution only. It contains no source code. Installers (DMG) are published under [Releases](https://github.com/linus-ground/brisk/releases), and the website and update feed are served from [GitHub Pages](https://linus-ground.github.io/brisk/).
 
 ## Requirements
@@ -56,6 +58,7 @@ Third-party components and their licenses are listed in [THIRD-PARTY-NOTICES.md]
 | Path | Description |
 |------|-------------|
 | `docs/index.html` | Website (GitHub Pages) |
+| `docs/screenshots/` | Screenshots for the website. They show made-up sample subscriptions and articles. |
 | `docs/appcast.xml` | Update feed read by the app. Each release is signed with an EdDSA key, and the app installs only updates whose signature matches. |
 | `LICENSE.md` | License |
 | `THIRD-PARTY-NOTICES.md` | Third-party notices |
